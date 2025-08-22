@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integritetspolicy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Integritetspolicy</h1>
+        <h2>Introduktion</h2>
+        <p>Välkommen till Matsyn! Vi är engagerade i att erbjuda dig detaljerad och korrekt information om livsmedelsinnehåll. Din integritet är vår prioritet, och vi vill säkerställa att du förstår hur vi hanterar din information.</p>
+        <h2>Information vi samlar in</h2>
+        <p>Matsyn samlar inte in någon personlig information från sina användare. Vår applikation är utformad för att erbjuda information om livsmedelsinnehåll utan behov av att samla in eller lagra personlig data.</p>
+        <h2>Användning av Livsmedelsverkets API</h2>
+        <p>Matsyn använder Livsmedelsverkets API, tillhandahållet av den svenska Livsmedelsverket, för att hämta och leverera information om livsmedelsprodukter. Detta API är en värdefull resurs för att få data relaterad till livsmedelsinnehåll.</p>
+        <p>Så här använder vi Livsmedelsverkets API:</p>
+        <ul>
+            <li><strong>Data som tillhandahålls av API:t:</strong> Vi använder API:t för att hämta information om olika livsmedelsprodukter, inklusive näringsdata, ingredienser och andra relevanta detaljer. Denna data används för att ge dig exakt livsmedelsinformation inom appen.</li>
+            <li><strong>Ingen personlig data åtkomst:</strong> Livsmedelsverkets API tillhandahåller inte tillgång till någon personlig information. Den data som erhålls genom API:t är begränsad till livsmedelsrelaterad information och inkluderar ingen användarspecifik data.</li>
+        </ul>
+        <h2>Användning av data</h2>
+        <p>Vår app är utformad för att enbart ge information om livsmedelsinnehåll. Vi samlar inte in, använder eller lagrar någon personlig data. Matsyns primära funktion är att presentera exakt livsmedelsrelaterad innehåll för att öka din kunskap om de produkter du konsumerar.</p>
+        <h2>Cookies och spårning</h2>
+        <p>Matsyn använder inte cookies eller någon spårningsteknik för att samla in data om din användning eller preferenser. Det finns ingen spårning av dina aktiviteter utöver vad som är nödvändigt för att visa appens innehåll.</p>
+        <h2>Tredjepartstjänster</h2>
+        <p>Förutom användningen av Livsmedelsverkets API för livsmedelsinformation integrerar Matsyn inte med några tredjepartstjänster som kräver åtkomst till din personliga data. Vårt fokus förblir på att erbjuda innehåll och funktionalitet som är relevant för livsmedelsinformation.</p>
+        <h2>Säkerhet</h2>
+        <p>Vi är engagerade i att upprätthålla säkerheten för Matsyn och den information den tillhandahåller. Eftersom vi inte samlar in någon personlig data, finns det ingen personlig information som är i riskzonen. Vi genomför lämpliga åtgärder för att säkerställa säkerheten och integriteten hos den information som levereras genom appen.</p>
+        <h2>Ändringar i denna policy</h2>
+        <p>Vi kan uppdatera denna integritetspolicy från tid till annan för att återspegla förändringar i våra rutiner eller för att uppfylla lagliga krav. Eventuella uppdateringar kommer att göras tillgängliga inom appen, och vi uppmuntrar dig att regelbundet granska denna policy.</p>
+        <h2>Kontakt</h2>
+        <p>Om du har några frågor eller funderingar angående denna integritetspolicy eller Matsyns rutiner, vänligen kontakta oss på <a href="mailto:kontakt@matsyn.se">kontakt@matsyn.se</a>.</p>
+        <p>Tack för att du använder Matsyn!</p>
+</body>
+</html>
