@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <label for="lang-select">Välj språk / Choose language:</label>
-    <select id="lang-select">
-      <option value="sv">Svenska</option>
-      <option value="en">English</option>
-    </select>
-    <title>Matsyn – Food ingredients & nutrition</title>
+    <title>Matsyn – Ingredienser & näringsvärden</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
         header, section { padding: 2rem; }
@@ -21,63 +16,70 @@
         section { border-bottom: 1px solid #eee; }
         ul { margin: 0; padding-left: 1.5rem; }
         .screenshots img { max-width: 200px; margin: 0.5rem; border: 1px solid #ccc; }
+        #lang-select { margin-left: 0.5rem; padding: 0.2rem 0.5rem; }
+        label { font-weight: bold; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Matsyn</h1>
-    <p>Discover ingredients and nutritional values for your food</p>
-    <a href="https://play.google.com/apps/testing/com.matsyn.app" class="cta-button">Download for Android</a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header" class="cta-button">Give Feedback</a>
+    <label for="lang-select">Välj språk / Choose language:</label>
+    <select id="lang-select">
+      <option value="sv" selected>Svenska</option>
+      <option value="en">English</option>
+    </select>
+    <p>Upptäck ingredienser och näringsvärden för maten</p>
+    <a href="https://play.google.com/apps/testing/com.matsyn.app" class="cta-button">Ladda ner för Android</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header" class="cta-button">Skicka feedback</a>
 </header>
 
 <section>
-    <h2>Features / Funktioner</h2>
+    <h2>Funktioner</h2>
     <ul>
-        <li>Search for foods by name or barcode / Sök efter mat via namn eller streckkod</li>
-        <li>View detailed ingredients and nutritional values / Visa detaljerade ingredienser och näringsvärden</li>
-        <li>Supports English and Swedish / Stöd för engelska och svenska</li>
-        <li>Offline handling: banners for no internet or airplane mode / Offlineläge: banners vid inget internet eller flygplansläge</li>
-        <li>Native ads appear 3/4 times; interstitials occasionally / Native-annonser 3/4 gånger; interstitiell ibland</li>
-        <li>Data sourced from Livsmedelsverkets API / Data hämtas från Livsmedelsverkets API</li>
+        <li>Sök efter mat via namn eller streckkod</li>
+        <li>Visa detaljerade ingredienser och näringsvärden</li>
+        <li>Stöd för engelska och svenska</li>
+        <li>Offlineläge: banners vid inget internet eller flygplansläge</li>
+        <li>Native-annonser visas 3 av 4 gånger; 4:e gången interstitiell</li>
+        <li>Data hämtas från Livsmedelsverkets API</li>
     </ul>
 </section>
 
 <section>
-    <h2>How it Works / Så fungerar Matsyn</h2>
+    <h2>Så fungerar Matsyn</h2>
     <ul>
-        <li>Search for a food item / Sök efter en matvara</li>
-        <li>View ingredients & nutrition info / Visa ingredienser och näringsinfo</li>
-        <li>Offline banner shows when internet unavailable / Offline-banner visar när internet inte är tillgängligt</li>
-        <li>Native ads 3/4 times, 4th time interstitial / Native-annonser 3/4 gånger, 4:e gången interstitiell</li>
+        <li>Sök efter en matvara</li>
+        <li>Visa ingredienser och näringsinfo</li>
+        <li>Offline-banner visas när internet inte är tillgängligt</li>
+        <li>Native-annonser 3/4 gånger; 4:e gången interstitiell</li>
     </ul>
     <div class="screenshots">
-        <img src="screenshot1.png" alt="Screenshot 1">
-        <img src="screenshot2.png" alt="Screenshot 2">
+        <img src="screenshot1.png" alt="Skärmdump 1">
+        <img src="screenshot2.png" alt="Skärmdump 2">
     </div>
 </section>
 
 <section>
-    <h2>Feedback & Contact / Feedback & Kontakt</h2>
-    <p>We welcome feedback from all testers / Vi välkomnar feedback från alla testare</p>
+    <h2>Feedback & Kontakt</h2>
+    <p>Vi välkomnar feedback från alla testare</p>
     <ul>
-        <li>English form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header">Submit feedback</a></li>
-        <li>Swedish form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header">Skicka feedback</a></li>
+        <li>Engelsk feedbackformulär: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header">Submit feedback</a></li>
+        <li>Svensk feedbackformulär: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header">Skicka feedback</a></li>
         <li>Email: <a href="mailto:admin@company.com">admin@company.com</a></li>
     </ul>
 </section>
 
 <section>
-    <h2>About & Legal / Om & Juridik</h2>
+    <h2>Om & Juridik</h2>
     <ul>
-        <li>Powered by Livsmedelsverkets API / Drivs av Livsmedelsverkets API</li>
-        <li>Matsyn does not store personal data / Matsyn lagrar inga personuppgifter</li>
-        <li>Terms of use apply / Användarvillkor gäller</li>
+        <li>Drivs av Livsmedelsverkets API</li>
+        <li>Matsyn lagrar inga personuppgifter</li>
+        <li>Användarvillkor gäller</li>
     </ul>
 </section>
 
-    <script>
+<script>
   const select = document.getElementById('lang-select');
   select.addEventListener('change', function() {
     if(this.value === 'en') {
