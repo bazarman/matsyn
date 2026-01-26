@@ -20,29 +20,29 @@
 </head>
 <body>
 
-<header>
-    <h1>Matsyn</h1>
-    <label for="lang-select">Välj språk:</label>
-    <select id="lang-select">
-      <option value="sv" selected>Svenska</option>
-      <option value="en">English</option>
-    </select>
-
-     <!-- <p>UNDER KONSTRUKTION</p> -->
+<header style="display: flex; justify-content: center; align-items: center; position: relative; flex-direction: column; background: #4CAF50; color: white; padding: 2rem;">
     
+    <!-- Language selector top-right -->
+    <div style="position: absolute; top: 1rem; right: 1rem;">
+        <label for="lang-select" style="display:none;">Välj språk:</label>
+        <select id="lang-select">
+          <option value="sv" selected>Svenska</option>
+          <option value="en">English</option>
+        </select>
+    </div>
+
+    <!-- Title centered -->
+    <h1 style="margin: 0 0 1rem 0;">Matsyn</h1>
+
+    <!-- Google Play badge -->
     <a href="https://play.google.com/store/apps/details?id=com.matsyn.app" target="_blank" rel="noopener">
       <img 
-        src="https://play.google.com/intl/sv/badges/static/images/badges/sv_badge_web_generic.png" 
+        src="https://play.google.com/intl/sv/badges/static/images/badge_web_generic.png" 
         alt="Hämta på Google Play"
         style="height:60px;"
       >
     </a>
 
-    <!--
-    <p>Upptäck ingredienser och näringsvärden för maten</p>
-    <a href="https://play.google.com/apps/testing/com.matsyn.app" class="cta-button">Ladda ner för Android</a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeai2lww7LtFFaqzBTsCpu39wSusGqdEhTt3tnKTxbj9hGfoQ/viewform?usp=header" class="cta-button">Skicka feedback</a>
--->
 </header>
 
 <section>
