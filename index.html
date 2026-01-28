@@ -92,12 +92,17 @@
 </section>
 
 <script>
-  const select = document.getElementById('lang-select');
-  select.addEventListener('change', function() {
-    if(this.value === 'en') {
-      window.location.href = 'en/index.html';
-    } else {
-      window.location.href = 'index.html';
+    const select = document.getElementById('lang-select');
+
+  select.addEventListener('change', function () {
+    const isEnglish = window.location.pathname.startsWith('/en/');
+
+    if (this.value === 'en' && !isEnglish) {
+      window.location.href = '/en/index.html';
+    }
+
+    if (this.value === 'sv' && isEnglish) {
+      window.location.href = '/index.html';
     }
   });
 </script>
