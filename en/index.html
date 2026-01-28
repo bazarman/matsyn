@@ -92,20 +92,24 @@
 </section>
 
 <script>
-    const select = document.getElementById('lang-select');
+  const select = document.getElementById('lang-select');
 
+  // Detect language from URL
+  const isEnglish = window.location.pathname.includes('/en/');
+
+  // Force correct initial value
+  select.value = isEnglish ? 'en' : 'sv';
+
+  // Always navigate on user interaction
   select.addEventListener('change', function () {
-    const isEnglish = window.location.pathname.startsWith('/en/');
-
-    if (this.value === 'en' && !isEnglish) {
+    if (this.value === 'en') {
       window.location.href = '/en/index.html';
-    }
-
-    if (this.value === 'sv' && isEnglish) {
+    } else {
       window.location.href = '/index.html';
     }
   });
 </script>
+
 
 </body>
 </html>
