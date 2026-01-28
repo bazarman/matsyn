@@ -26,8 +26,8 @@
     <div style="position: absolute; top: 1rem; right: 1rem;">
         <label for="lang-select" style="display:none;">Choose language:</label>
         <select id="lang-select">
-          <option value="sv">Svenska</option>
-          <option value="en">English</option>
+          <option value="/index.html">Svenska</option>
+          <option value="/en/index.html">English</option>
         </select>
     </div>
 
@@ -94,19 +94,13 @@
 <script>
   const select = document.getElementById('lang-select');
 
-  // Detect language from URL
-  const isEnglish = window.location.pathname.includes('/en/');
+  // Sync with current URL
+  select.value = location.pathname.includes('/en/')
+    ? '/en/index.html'
+    : '/index.html';
 
-  // Force correct initial value
-  select.value = isEnglish ? 'en' : 'sv';
-
-  // Always navigate on user interaction
-  select.addEventListener('change', function () {
-    if (this.value === 'en') {
-      window.location.href = '/en/index.html';
-    } else {
-      window.location.href = '/index.html';
-    }
+  select.addEventListener('change', () => {
+    window.location.assign(select.value);
   });
 </script>
 
